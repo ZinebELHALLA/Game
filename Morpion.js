@@ -60,9 +60,9 @@ $(document).ready(function () {
             (board[0] == player && board[4] == player && board[8] == player) ||
             (board[2] == player && board[4] == player && board[6] == player)
         ) {
-            return true;
+            return false;
         }
-        return false;
+        return true;
     }
 
 
